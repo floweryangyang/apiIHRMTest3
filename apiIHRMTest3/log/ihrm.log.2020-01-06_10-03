@@ -1,0 +1,17 @@
+2020-01-06 10:02:18,011 INFO [root] [__init__.py(<module>:10)] - TEST日志器能不能正常工作
+2020-01-06 10:02:18,286 INFO [root] [login.py(test_login:29)] - 登陆成功接口返回的数据为： {'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'a0225a51-98d0-4adf-af30-dd741c8b210b'}
+2020-01-06 10:02:18,286 INFO [root] [login.py(test_login:38)] - 保存的令牌是：{'Content-Type': 'application/json', 'Authorization': 'Bearer a0225a51-98d0-4adf-af30-dd741c8b210b'}
+2020-01-06 10:02:18,360 INFO [root] [test_login.py(test01_login_success:28)] - 登陆成功接口返回的数据为： {'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'a0225a51-98d0-4adf-af30-dd741c8b210b'}
+2020-01-06 10:02:18,428 INFO [root] [test_login.py(test02_username_is_not_exist:46)] - 账号不存在时输出的数据为： {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-01-06 10:02:18,498 INFO [root] [test_login.py(test03_password_is_error:56)] - 密码错误时输出的数据为： {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-01-06 10:02:18,566 INFO [root] [test_login.py(test04_username_have_special_char:66)] - 账号输入特殊字符时输出的数据为： {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-01-06 10:02:18,634 INFO [root] [test_login.py(test05_username_is_empty:76)] - 账号为空输出的数据为： {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-01-06 10:02:18,702 INFO [root] [test_login.py(test06_password_is_empty:86)] - 密码为空输出的数据为： {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-01-06 10:02:18,772 INFO [root] [test_login.py(test07_username_have_chinese:96)] - 账号中有中文输出的数据为： {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-01-06 10:02:18,844 INFO [root] [test_login.py(test08_username_middler_have_space:106)] - 账号中有空格输出的数据为： {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-01-06 10:03:09,929 INFO [root] [__init__.py(<module>:10)] - TEST日志器能不能正常工作
+2020-01-06 10:03:10,151 INFO [root] [login.py(test_login:29)] - 登陆成功接口返回的数据为： {'success': True, 'code': 10000, 'message': '操作成功！', 'data': '9606500b-bb35-4c67-ba10-8cb5589dbd14'}
+2020-01-06 10:03:10,152 INFO [root] [login.py(test_login:38)] - 保存的令牌是：{'Content-Type': 'application/json', 'Authorization': 'Bearer 9606500b-bb35-4c67-ba10-8cb5589dbd14'}
+2020-01-06 10:03:10,228 INFO [root] [test_emp.py(test01_add_emp:30)] - 添加员工接口返回数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1214004366331432960'}}
+2020-01-06 10:03:10,228 INFO [root] [test_emp.py(test01_add_emp:36)] - 员工ID： 1214004366331432960
+2020-01-06 10:03:10,302 INFO [root] [test_emp.py(test02_query_emp:44)] - 查询员工接口的返回数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1214004366331432960', 'mobile': '299999111228', 'username': '五竹xxx110', 'password': '006d22f0565ab3b0b09ed2976a5f249e', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1210411411066695680', 'timeOfEntry': '2019-12-02T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '1234', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-12-15T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '测试', 'roleIds': [], 'staffPhoto': None}}

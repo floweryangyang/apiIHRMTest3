@@ -1,0 +1,23 @@
+2020-01-06 10:39:13,969 INFO [root] [__init__.py(<module>:10)] - TEST日志器能不能正常工作
+2020-01-06 10:39:14,209 INFO [root] [login.py(test_login:29)] - 登陆成功接口返回的数据为： {'success': True, 'code': 10000, 'message': '操作成功！', 'data': '24f53d0c-f312-44a8-bba9-2b064eff061d'}
+2020-01-06 10:39:14,209 INFO [root] [login.py(test_login:38)] - 保存的令牌是：{'Content-Type': 'application/json', 'Authorization': 'Bearer 24f53d0c-f312-44a8-bba9-2b064eff061d'}
+2020-01-06 10:39:14,299 INFO [root] [test_emp.py(test01_add_emp:30)] - 添加员工接口返回数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-01-06 10:39:14,373 INFO [root] [test_emp.py(test02_query_emp:44)] - 查询员工接口的返回数据为:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-01-06 10:39:14,445 INFO [root] [test_emp.py(test03_modify_emp:54)] - 修改员工接口的返回数据为:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-01-06 10:39:14,512 INFO [root] [test_emp.py(test04_delete_emp:64)] - 删除员工接口的返回数据为:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-01-06 10:39:37,844 INFO [root] [__init__.py(<module>:10)] - TEST日志器能不能正常工作
+2020-01-06 10:39:38,083 INFO [root] [login.py(test_login:29)] - 登陆成功接口返回的数据为： {'success': True, 'code': 10000, 'message': '操作成功！', 'data': '926dd09c-623b-4fb0-97de-fcbe3c3f2e5e'}
+2020-01-06 10:39:38,084 INFO [root] [login.py(test_login:38)] - 保存的令牌是：{'Content-Type': 'application/json', 'Authorization': 'Bearer 926dd09c-623b-4fb0-97de-fcbe3c3f2e5e'}
+2020-01-06 10:39:38,164 INFO [root] [test_emp.py(test01_add_emp:30)] - 添加员工接口返回数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1214013543154012160'}}
+2020-01-06 10:39:38,164 INFO [root] [test_emp.py(test01_add_emp:36)] - 员工ID： 1214013543154012160
+2020-01-06 10:39:38,235 INFO [root] [test_emp.py(test02_query_emp:44)] - 查询员工接口的返回数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1214013543154012160', 'mobile': '18432211239', 'username': '六竹xxxx3', 'password': 'e35e77629503d5ff1adb61bf2ef1c4e3', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1210411411066695680', 'timeOfEntry': '2019-12-02T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '1234', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-12-15T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '测试', 'roleIds': [], 'staffPhoto': None}}
+2020-01-06 10:39:38,316 INFO [root] [test_emp.py(test03_modify_emp:54)] - 修改员工接口的返回数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1214013543154012160'}}
+2020-01-06 10:39:38,389 INFO [root] [test_emp.py(test04_delete_emp:64)] - 删除员工接口的返回数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-01-06 10:39:50,666 INFO [root] [__init__.py(<module>:10)] - TEST日志器能不能正常工作
+2020-01-06 10:39:50,882 INFO [root] [login.py(test_login:29)] - 登陆成功接口返回的数据为： {'success': True, 'code': 10000, 'message': '操作成功！', 'data': '60fd4eb7-5b08-480e-bc8a-775eede4abf3'}
+2020-01-06 10:39:50,882 INFO [root] [login.py(test_login:38)] - 保存的令牌是：{'Content-Type': 'application/json', 'Authorization': 'Bearer 60fd4eb7-5b08-480e-bc8a-775eede4abf3'}
+2020-01-06 10:39:50,948 INFO [root] [test_emp.py(test01_add_emp:30)] - 添加员工接口返回数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1214013596820131840'}}
+2020-01-06 10:39:50,948 INFO [root] [test_emp.py(test01_add_emp:36)] - 员工ID： 1214013596820131840
+2020-01-06 10:39:51,021 INFO [root] [test_emp.py(test02_query_emp:44)] - 查询员工接口的返回数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1214013596820131840', 'mobile': '18432211239', 'username': '六竹xxxx3', 'password': 'e35e77629503d5ff1adb61bf2ef1c4e3', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1210411411066695680', 'timeOfEntry': '2019-12-02T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '1234', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-12-15T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '测试', 'roleIds': [], 'staffPhoto': None}}
+2020-01-06 10:39:51,090 INFO [root] [test_emp.py(test03_modify_emp:54)] - 修改员工接口的返回数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1214013596820131840'}}
+2020-01-06 10:39:51,161 INFO [root] [test_emp.py(test04_delete_emp:64)] - 删除员工接口的返回数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
